@@ -21,27 +21,41 @@
 // saudacao();
 // somar(10,4);
 
-function somarNumeros(){
+function somarNumeros() {
 
     let soma = 0;
     let continuar = true;
 
-    while(continuar){
+    while (continuar) {
         let numero = parseFloat(prompt("Digite um número (ou digite '0' para encerrar); "));
 
-        if (isNaN(numero)){
+        if (isNaN(numero)) {
             alert("Por favor, dogite um número válido!");
-        } else{
+        } else {
             soma += numero;
-            console.log(soma);
-        } 
+        }
 
-        continuar = confirm("Deseja adicionar mais um número?");       
+        continuar = confirm("Deseja adicionar mais um número?");
     }
 
     alert("A soma dos números é: " + soma);
     console.log("A soma dos números é: " + soma)
 }
 
-somarNumeros();
+// somarNumeros();
 
+function exercicio2() {
+    console.log("Contagem regressiva para lançamento!");
+    for (let i = 10; i >= 0; i--) {
+        console.log(i);
+    }
+    {
+        console.log("Lançamento realizado!");
+    }
+}
+
+// exercicio2();
+
+function exercicio3(){
+    
+}
