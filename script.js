@@ -60,7 +60,7 @@ function exercicio3(){
    let ganhoAnual = 0;
    let gastoAnual = 0;
    
-   for(let i = 1; i <= 5; i++){
+   for(let i = 1; i <= 12; i++){
     let ganhoMes = parseFloat(prompt("Digite o ganho bruto do mês " + i));
     let gastoMes = parseFloat(prompt("Digite o gasto do mês " + i));
 
@@ -153,3 +153,44 @@ function exercicio7(){
     }
 }
 // exercicio7();
+
+function exercico8(){
+
+    let var1 = 18;
+    let var2 = 14;
+
+    let diferenca = var1 - var2;
+    console.log("A diferença entre as variáveis é: " + diferenca);
+
+    let soma = (var1 * 2) + (var2 * 3);
+    console.log("O dobro da primeira variável somado ao triplo da segunda é: " +soma);
+
+    let multiplicacao = var1 * var2;
+    console.log("A multiplicação das duas variáveis é: " + multiplicacao);
+
+}
+// exercico8();
+
+function exercicio9(){
+
+     let var1 = 20;
+     let var2 = 4;
+
+     if(var1 > var2){
+        console.log(var2 + "," + var1);
+     }else{
+        console.log(var1 + "," + var2);
+     }
+}
+// exercicio9();
+
+function exercicio10(){
+
+    let nome = prompt("Digite o seu nome:");
+    let salario = prompt("Digite o seu salário bruto:");
+
+    let desconto = salario *
+
+    console.log("Nome: " +nome);
+    console.log("Salário bruto:" +salario);
+}
