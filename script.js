@@ -187,7 +187,7 @@ function exercicio9(){
 function exercicio10(){
 
     let nome = prompt("Digite o seu nome:");
-    let salario = prompt("Digite o seu salário bruto:");
+    let salario = parseFloat(prompt("Digite o seu salário bruto:"));
 
     let desconto = salario * 0.08;
     let diferenca = salario - desconto;
@@ -202,7 +202,7 @@ function exercicio10(){
 function exercicio11(){
 
     let nome = prompt("Digite o seu nome:");
-    let salario = prompt("Digite o seu salário bruto:");
+    let salario = parseFloat(prompt("Digite o seu salário bruto:"));
     let desconto = 0;
     let diferenca = 0;
     let taxa = 0;
