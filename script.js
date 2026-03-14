@@ -21,7 +21,7 @@
 // saudacao();
 // somar(10,4);
 
-function somarNumeros() {
+function exercicio1() {
 
     let soma = 0;
     let continuar = true;
@@ -42,7 +42,7 @@ function somarNumeros() {
     console.log("A soma dos números é: " + soma)
 }
 
-// somarNumeros();
+// exercicio1();
 
 function exercicio2() {
     console.log("Contagem regressiva para lançamento!");
@@ -110,7 +110,7 @@ function exercicio5(){
         numero -= 1;
     }
 
-    console.log("Valor final:" + numero);
+    console.log("Valor final: " + numero);
 }
 // exercicio5();
 
@@ -189,8 +189,42 @@ function exercicio10(){
     let nome = prompt("Digite o seu nome:");
     let salario = prompt("Digite o seu salário bruto:");
 
-    let desconto = salario *
+    let desconto = salario * 0.08;
+    let diferenca = salario - desconto;
+
+    console.log("Nome: " +nome);
+    console.log("Salário bruto: " +salario);
+    console.log("O valor do desconto do INSS é: " +desconto);
+    console.log("Salário líquido: " +diferenca);
+}
+// exercicio10();
+
+function exercicio11(){
+
+    let nome = prompt("Digite o seu nome:");
+    let salario = prompt("Digite o seu salário bruto:");
+    let desconto = 0;
+    let diferenca = 0;
+    let taxa = 0;
+
+    if(salario <= 1000){
+        taxa = 8;
+        desconto = salario * 0.08;
+        diferenca = salario - desconto;
+    }else if(salario > 1000 && salario <= 1500){
+        taxa = 8.5;
+        desconto = salario * 0.085;
+        diferenca = salario - desconto;
+    }else if(salario > 1500){
+        taxa = 9;
+        desconto = salario * 0.09;
+        diferenca = salario - desconto;
+    }
 
     console.log("Nome: " +nome);
     console.log("Salário bruto:" +salario);
+    console.log("Taxa de desconto:" + taxa + "%");
+    console.log("O valor do desconto:" +desconto);
+    console.log("Salário líquido:" +diferenca);
 }
+// exercicio11();
