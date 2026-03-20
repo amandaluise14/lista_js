@@ -100,9 +100,9 @@ function exercicio4(){
     alert("Ordem decrescente: " + numeros);
     
 }
- exercicio4();
+// exercicio4();
 
-function exercicio5(){
+function exercicio5(){ 
 
     let numero = parseInt(prompt("Digite um número inteiro"));
 
@@ -112,7 +112,7 @@ function exercicio5(){
         numero -= 1;
     }
 
-    console.log("Valor final: " + numero);
+    alert("Valor final: " + numero);
 }
 // exercicio5();
 
@@ -131,6 +131,39 @@ function exercicio6(){
 function exercicio7(){
 
     let sabor = prompt("a - Chocolate \nb - Morango \nc - Creme \nd - Manga \ne - Melancia \nf - Vanilla Ice \ng - Céu Azul \nh - Brownie \ni - Hawaiano \nEscolha um sabor e digite seu código:");
+
+    // switch (sabor) {
+    // case "a":
+    //     console.log("Chocolate - $1.50");
+    //     break;
+    // case "b":
+    //     console.log("Morango - $2.50");
+    //     break;
+    // case "c":
+    //     console.log("Creme - $2.50");
+    //     break;
+    // case "d":
+    //     console.log("Manga - $3.20");
+    //     break;
+    // case "e":
+    //     console.log("Melancia - $3.40");
+    //     break;
+    // case "f":
+    //     console.log("Vanilla ice - $3.00");
+    //     break;
+    // case "g":
+    //     console.log("Céu azul - $3.60");
+    //     break;
+    // case "h":
+    //     console.log("Brownie - $4.00");
+    //     break;
+    // case "i":
+    //     console.log("Hawaiano - $5.00");
+    //     break;
+       
+    // default:
+    //     console.log("código inválido");
+    //}
 
     if(sabor == "a"){
         console.log("Chocolate R$ 1,50");
