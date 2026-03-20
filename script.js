@@ -82,7 +82,7 @@ function exercicio3(){
         alert("A empresa não teve lucro e nem prejuízo");
     }
 }
-exercicio3();
+// exercicio3();
 
 function exercicio4(){
 
@@ -93,12 +93,14 @@ function exercicio4(){
 
     let numeros = [n1, n2 , n3, n4];
 
+    // numeros.push(Number(prompt("Digite um número inteiro")));
+
     numeros.sort((a,b) => b - a);
 
-    console.log("Ordem decrescente:" + numeros);
+    alert("Ordem decrescente: " + numeros);
     
 }
-// exercicio4();
+ exercicio4();
 
 function exercicio5(){
 
