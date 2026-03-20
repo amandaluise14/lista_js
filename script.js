@@ -75,14 +75,14 @@ function exercicio3(){
     console.log("Saldo financeiro Anual: " + saldoAnual); 
     
     if(gastoAnual > ganhoAnual){
-        console.log("A empresa teve prejuízo");
+        alert("A empresa teve prejuízo");
     }else if(gastoAnual < ganhoAnual){
-        console.log("A empresa teve lucro");
+        alert("A empresa teve lucro");
     }else{
-        console.log("A empresa não teve lucro e nem prejuízo");
+        alert("A empresa não teve lucro e nem prejuízo");
     }
 }
-// exercicio3();
+exercicio3();
 
 function exercicio4(){
 
